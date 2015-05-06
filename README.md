@@ -3,6 +3,8 @@ Run code by Twitter with webtask.io
 
 This project demonstrates the use of [webtask.io](https://webtask.io) created by [Auth0](https://auth0.com) to run Node.js code submitted to the [@webtaskio](https://twitter.com/webtaskio) twitter alias by way of a tweet. 
 
+![webtask-twitter](https://cloud.githubusercontent.com/assets/822369/7501470/0433c6d4-f3e9-11e4-818e-ed1daaee6540.png)
+
 ## How to use
 
 Using your favorite Twitter client, send a tweet formatted as follows:

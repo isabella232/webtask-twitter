@@ -1,0 +1,48 @@
+{
+  "name": "webtask-twitter",
+  "author": {
+    "name": "Tomasz Janczuk <tomasz@janczuk.org>",
+    "url": "http://tomasz.janczuk.org",
+    "twitter": "tjanczuk"
+  },
+  "version": "0.1.0-pre",
+  "description": "Auth0 Webtask Twitter Worker",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "tags": [
+    "nodejs",
+    "authentication",
+    "auth0",
+    "webtask",
+    "javascript",
+    "security",
+    "webtaskio"
+  ],
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "async": "~0.9.0",
+    "bunyan": "^1.3.5",
+    "dotenv": "^0.4.0",
+    "html-entities": "^1.1.2",
+    "request": "^2.55.0",
+    "tripwire": "^0.10.0",
+    "twitter-node-client": "0.0.6"
+  },
+  "homepage": "http://github.com/auth0/webtask-twitter",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:auth0/webtask-twitter.git"
+  },
+  "bugs": {
+    "url": "http://github.com/auth0/webtask-twitter/issues"
+  }
+}
